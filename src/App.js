@@ -10,12 +10,12 @@ import Channel from './components/Channel';
 import Loader from './components/Loader';
 
 firebase.initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_AUTH_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyBab9oA7-3J11CvVjcrNPmHJDKU6RmOGVU",
+  authDomain: "fir-chat-kary-2321.firebaseapp.com",
+  projectId: "fir-chat-kary-2321",
+  storageBucket: "fir-chat-kary-2321.appspot.com",
+  messagingSenderId: "479298265110",
+  appId: "1:479298265110:web:14a512acba91017f5a1537"
 });
 
 const MoonIcon = props => (
@@ -102,10 +102,10 @@ function App() {
                 clipRule="evenodd"
               />
             </svg>
-            React FireChat
+            CHAT_KARYMITA_TV
           </h2>
           <p className="mb-8 text-lg text-center">
-            The easiest way to chat with people all around the world.
+            ESTA APP ES EXCLUSIVA PARA KARYMITA
           </p>
           <button
             onClick={signInWithGoogle}
@@ -137,7 +137,7 @@ function App() {
                 d="M6.6 16.7c1.7-1.3 3.3-2.5 5-3.8.6 1.8 1.9 3.5 3.5 4.6 1 .7 2.2 1.2 3.4 1.4 1.2.2 2.4.2 3.7 0 1.2-.2 2.4-.6 3.4-1.3 1.6 1.2 3.2 2.5 4.9 3.7-1.8 1.6-3.9 2.7-6.3 3.2-2.6.6-5.3.6-7.8-.1-2-.5-3.9-1.5-5.6-2.7-1.7-1.3-3.2-3-4.2-5z"
               ></path>
             </svg>
-            Sign in with Google
+            Inicia con Google
           </button>
         </div>
       </div>
@@ -150,8 +150,8 @@ function App() {
         className="flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md"
         style={{ height: 'var(--topbar-height)' }}
       >
-        <a href="https://alterclass.io/courses/react">
-          <img src={brandLogo} alt="AlterClass" width={150} />
+        <a href="https://golfishmanalexis.github.io/PORTAFOLIO-ALEXIS_V/">
+          <img src={brandLogo} alt="ALEXIS_V" width={150} />
         </a>
         <div className="flex items-center">
           {user ? (
@@ -159,7 +159,7 @@ function App() {
               onClick={signOut}
               className="uppercase text-sm font-medium text-primary-500 hover:text-white tracking-wide hover:bg-primary-500 bg-transparent rounded py-2 px-4 mr-4 focus:outline-none focus:ring focus:ring-primary-500 focus:ring-opacity-75 transition-all"
             >
-              Sign out
+              Salir
             </button>
           ) : null}
           <ThemeIcon
